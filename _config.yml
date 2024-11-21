@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: Stone's Blog
+subtitle: '石头的博客'
+description: 'this blog is about my learning and life'
+keywords: 'Stone, blog, learning, life'
+author: 'Stone'
+language: 'zh'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.anliu.site
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -67,7 +67,11 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  "yesterday's thoughts": yesterdays-thoughts
+  "C++": c-plus-plus
 tag_map:
+  "yesterday's thoughts": yesterdays-thoughts
+  "C++": c-plus-plus
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
